@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/1024f7c4-4dd7-4138-8378-810aff243060)
+
 # Node-Red
 - [Node-Red Installation and Setup](#Node-Red-Installation-and-Setup)
 - [Installation Steps (Server and Local)](#Installation-Steps-(Server-and-Local))
