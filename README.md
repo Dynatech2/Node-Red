@@ -6,7 +6,8 @@
 - [PostgreSQL Database Setup](#PostgreSQL-Database-Setup)
 - [Table Structure Design for Traffic Data](#Table-Structure-Design-for-Traffic-Data)
 - [Data Retrieval and Error Testing](#Data-Retrieval-and-Error-Testing)
-## Running on Windows
+## Node-Red Installation and Setup
+### Running on Windows
 This page gives specific instructions on setting up Node-RED in a Microsoft Windows environment. The instructions are specific to Windows 10. They may also work for Windows 7 and Windows Server from 2008R2, but it is advisable not to use them due to lack of current support.
 
 Note : Some of the following instructions mention the "command prompt". Where this is used, it refers to either the Windows cmd or PowerShell terminal shells. It is recommended to use PowerShell on all newer versions of Windows as this gives you access to commands and folder names that are closer to those of Linux/Mac.
@@ -111,3 +112,10 @@ Click on **“Create Task…”** in the right-hand menu. Follow the steps to cr
 Make sure that you use the user login that you’ve used to set up and do the initial run of Node-RED. You can use an **“At startup”** trigger to always run Node-RED at system startup. Use the Action **“Start a program”** with details set to **C:\Users\<user>\AppData\Roaming\npm\node-red.cmd** (replacing <user> with your actual user name).
 
 You may wish to make sure that it only starts if the network is available. You may also wish to restart if the job fails. Perhaps restarting every minute but only 3 times - if it won’t start by then, the error is fatal and will need some other intervention. You can check for failures by looking in the event log. If you want to access to the logs when running this way, you should amend the node-red.cmd file to redirect std and error outputs to a file (creating an alternative startup file would be better so that it isn’t overwritten on updates).
+
+## Installation Steps (Server and Local) 
+## Connecting to Node-Red using MQTT
+## Database Configuration
+## PostgreSQL Database Setup
+## Table Structure Design for Traffic Data 
+## Data Retrieval and Error Testing 
