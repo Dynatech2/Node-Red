@@ -1,4 +1,11 @@
 # Node-Red
+- [Node-Red Installation and Setup](#Node-Red-Installation-and-Setup)
+- [Installation Steps (Server and Local)](#Installation-Steps-(Server-and-Local))
+- [Connecting to Node-Red using MQTT](#Connecting-to-Node-Red-using-MQTT)
+- [Database Configuration](#Database-Configuration)
+- [PostgreSQL Database Setup](#PostgreSQL-Database-Setup)
+- [Table Structure Design for Traffic Data](#Table-Structure-Design-for-Traffic-Data)
+- [Data Retrieval and Error Testing](#Data-Retrieval-and-Error-Testing)
 ## Running on Windows
 This page gives specific instructions on setting up Node-RED in a Microsoft Windows environment. The instructions are specific to Windows 10. They may also work for Windows 7 and Windows Server from 2008R2, but it is advisable not to use them due to lack of current support.
 
